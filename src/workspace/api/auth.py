@@ -5,6 +5,7 @@ from ..services.auth import AuthService, get_current_user
 
 router = APIRouter(
     prefix='/auth',
+    tags=['auth'],
 )
 
 @router.post('/sign-up', response_model=Token)
