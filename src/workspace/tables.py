@@ -10,6 +10,7 @@ class User(Base):
     email = sa.Column(sa.Text, unique=True)
     username = sa.Column(sa.Text, unique=True)
     password_hash = sa.Column(sa.Text)
+
 class Operation(Base):
     __tablename__ = 'operations'
 

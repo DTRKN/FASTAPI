@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from .api import router
 
+
 tags_metadata = [
     {
         'name': 'auth',
